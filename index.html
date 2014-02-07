@@ -3,28 +3,118 @@
 
 <head>
 
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-  <title>PXLport by Coty Beasley</title>
+    <title>PXLport by Coty Beasley</title>
 
-  <link rel="stylesheet" href="css/reset.css">
-
-    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+    <style>
+    html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+    </style>
+    <style>
+        html,
+        body {
+            height: 100%;
+            background-color: #eee;
+            overflow: hidden;
+            font-family: verdana, arial, helvetica, sans-serif;
+            font-size: 1em;
+        }
+        .textBox {
+            z-index: 1000;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            margin-top: 4em;
+        }
+        h1,
+        p {
+            background: rgba(10, 10, 10, 0.75);
+            padding: 0.5em;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 2em;
+            color: #eee;
+            margin-bottom: 0.25em;
+        }
+        p {
+            color: #999;
+        }
+        a {
+            text-decoration: none;
+            border-bottom: 2px dotted #63b9d4;
+            color: #eee;
+            line-height: 150%;
+        }
+        .floaters {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background-color: #eee;
+            overflow: hidden;
+            opacity: 0.25;
+            z-index: 0;
+        }
+    </style>
 
 </head>
 
 <body>
 
-  <div class="textBox">
-  <h1>Welcome to PXLport.</h1>
-  <p>// This is a code playground created by and for <a href="http://twitter.com/beacrea" target="_blank">Coty Beasley</a>.</p>
-</div><!-- /.textBox -->
-<div class="floaters">  
-</div><!-- /.floaters -->
+    <div class="textBox">
+        <h1>Welcome to PXLport.</h1>
+        <p>// This is a code playground created by and for <a href="http://twitter.com/beacrea" target="_blank">Coty Beasley</a>.</p>
+    </div>
+    <!-- /.textBox -->
+    <div class="floaters">
+    </div>
+    <!-- /.floaters -->
 
-  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+    <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
 
-  <script src="js/index.js"></script>
+    <script src="index.js"></script>
 
 </body>
 

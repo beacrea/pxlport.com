@@ -302,7 +302,7 @@
   };
 
   $('.floaters').vapors({
-    src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/84194/cbeas_logo_1.png',
+    src: 'index_logo.png',
     count_multiplier: 1
   });
 
